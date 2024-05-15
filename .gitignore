@@ -1,48 +1,19 @@
-# node_modules - Ignoruj wszelkie zależności zainstalowane przez npm
-node_modules/
-
-# pliki wygenerowane przez różne narzędzia
+/.phpunit.cache
+/node_modules
+/public/build
+/public/hot
+/public/storage
+/storage/*.key
+/vendor
+.env
+.env.backup
+.env.production
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+auth.json
 npm-debug.log
 yarn-error.log
-
-# pliki konfiguracyjne i logi
-.env
-.env.local
-.env.*.local
-.env.test
-.env.test.local
-.env.prod
-.env.prod.local
-
-# Katalogi wygenerowane podczas procesu kompilacji
-dist/
-out/
-build/
-
-# Lokalne pliki debugowania
-.vscode/
-.idea/
-
-# Wygenerowane pliki dokumentacji
-doc/
-docs/
-
-# Pliki użytkownika
-*.suo
-*.user
-*.sln.docstates
-
-# Wygenerowane pliki wykonawcze
-*.exe
-*.dll
-*.pdb
-*.log
-*.bin
-*.lock.json
-
-# Wygenerowane pliki do testów
-*.spec.js
-*.spec.ts
-
-# macOS
-.DS_Store
+/.fleet
+/.idea
+/.vscode
