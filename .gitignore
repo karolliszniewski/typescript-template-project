@@ -1,0 +1,48 @@
+# node_modules - Ignoruj wszelkie zależności zainstalowane przez npm
+node_modules/
+
+# pliki wygenerowane przez różne narzędzia
+npm-debug.log
+yarn-error.log
+
+# pliki konfiguracyjne i logi
+.env
+.env.local
+.env.*.local
+.env.test
+.env.test.local
+.env.prod
+.env.prod.local
+
+# Katalogi wygenerowane podczas procesu kompilacji
+dist/
+out/
+build/
+
+# Lokalne pliki debugowania
+.vscode/
+.idea/
+
+# Wygenerowane pliki dokumentacji
+doc/
+docs/
+
+# Pliki użytkownika
+*.suo
+*.user
+*.sln.docstates
+
+# Wygenerowane pliki wykonawcze
+*.exe
+*.dll
+*.pdb
+*.log
+*.bin
+*.lock.json
+
+# Wygenerowane pliki do testów
+*.spec.js
+*.spec.ts
+
+# macOS
+.DS_Store
